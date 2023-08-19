@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+body {
+  font-size: 14px;
+  font-family: Segoe UI, sans-serif;
+  background-color: #F5F5EB;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 85%;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: blue;
+}
+
+hr {
+  background-color: rgb(180, 177, 177);
+  height: 1px;
+  border: none;
+  border-radius: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.img-container {
+  width: 40%;
+  height: 450px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 70px;
+}
+
+.item > .controls {
+  display: flex;
+  justify-content: space-between;
+}
